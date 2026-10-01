@@ -197,16 +197,6 @@ Bedrock buys time with the same model; it is not a forever home, and it comes wi
 - **It isn't claude.ai.** No memory, Projects or web search. If you had a long-running companion, bring your own system prompt and history through your app.
 - **It ends eventually.** End-of-life comes at least 6 months after Legacy. Anthropic says it preserves retired models' weights and hopes to make them available again someday ([deprecation page](https://platform.claude.com/docs/en/about-claude/model-deprecations)).
 
-These are **not** backups:
-
-| Option | Why not |
-| --- | --- |
-| Claude Platform on AWS | Run by Anthropic, so it follows Anthropic's retirement dates. |
-| Microsoft Foundry | Also follows Anthropic's dates. |
-| OpenRouter and other resellers | They forward requests to Anthropic, Bedrock or Google, so they last only as long as those do. |
-| Google Cloud (Vertex AI) | In our experience, Sonnet 4.5 disappeared from Model Garden for new projects on the day of Anthropic's notice. |
-| Self-hosting | Claude's weights can't be downloaded. |
-
 ## Key dates
 
 AWS has marked recent Claude models Legacy between 0 and 33 days after Anthropic's notice, then kept them at least 6 more months.
